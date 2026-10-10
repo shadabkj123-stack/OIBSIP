@@ -27,9 +27,9 @@ This is a command-line BMI calculator that I built in Python. It asks for my wei
 The program reads 5.5 as 5.5 feet (5 ft 6 in), and converts it to metres.
 
 ## Screenshots
-![Normal run](screenshot1.png)
-![Error handling](screenshot2.png)
-![Centimetres](screenshot3.png)
+![Normal run](Screenshot1.png)
+![Error handling](Screenshot2.png)
+![Centimetres](Screenshot3.png)
 
 ## What I learned
 While building this project I learned how to use functions to keep my code organised, and how to use try/except with a while loop so the program keeps asking until the input is valid. I also learned that testing matters: at first I entered my height in feet while the program expected metres, and the BMI came out wrong. That mistake made me add unit selection (m, cm, ft) and a check for unrealistic heights. I also added a "Calculate again?" option so the user does not have to restart the program.
